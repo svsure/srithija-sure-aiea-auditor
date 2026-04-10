@@ -9,17 +9,17 @@
   Solution: Downgraded pyparsing to version 2.4.7 using pip install pyparsing==2.4.7
 * Issue: ModuleNotFoundError: No module named 'spacy'
   Solution: Installed spaCy using pip install spacy and downloaded language model using python -m spacy download en_core_web_sm
-* Issue: Missing required dataset files (snli_1.0_dev.vec not included in repo)
+* Issue: Missing required dataset files 
   Solution: Attempted to locate/generate data, but repo does not provide preprocessing instructions or files
 * Issue: FileNotFoundError: data/analysis/snli_1.0_dev.vec
-  Description: The script requires a preprocessed vector file that is not included in the repository. The repository also does not provide clear       instructions or scripts to generate this file.
-  Solution: Attempted to locate or generate the dataset, but due to missing preprocessing pipeline and incomplete documentation, the file could not be created. Proceeded with analysis based on understanding of the system.
+  Description: The script requires a pretrained model checkpoint.
+  Solution: Identified that the model has to be downloaded separately based on the documentaiton. 
 
 <ins>Remaining tasks:</ins>
-Download the pretrained model
-Complete the Neurons list
+* Download the pretrained model
+* Complete the Neurons list
 
-I will complete these tasks hopefully by Sunday! I apologize for the delay as this is new material to me.
+I will complete these tasks soon! I apologize for the delay as this is new material to me.
 
 <ins>Workstation Setup</ins>
 Macbook Pro (14-inch, 2024)
