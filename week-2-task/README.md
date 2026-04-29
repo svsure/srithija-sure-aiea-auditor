@@ -1,4 +1,5 @@
 # Week 2 Deliverable:
+(originally completed/recorded on a Google Document, transferred previous work and current work to README.md)
 ## Task: Setting Up the Environment
 * Issue: ModuleNotFoundError: No module named “onmt”
     * Solution: installed OpenNMT using pip install OpenNMT-py
