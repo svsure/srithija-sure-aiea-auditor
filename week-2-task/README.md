@@ -23,24 +23,24 @@ Decided to restart the whole task and polish/apply debugging methods as I follow
 
 Unfortunately I could not properly complete this task.
 # Steps & Issues Faced
-Cloned the repository and explored the nli folder
-requirements.txt file was missing, so installed dependencies manually
-Faced Python compatibility issue (project requires older version)
-Installed Python 3.8 using pyenv and created a virtual environment
-While installing spacy==2.2.4, encountered multiple build errors
-Downgraded setuptools, wheel, and python to resolve dependency issues
-Installation still failed due to blis dependency requiring unsupported CPU instructions on Apple Silicon
-Tried running setup in Google Colab as an alternative
-In Colab, spacy 2.2.4 failed due to incompatibility with Python 3.12
-Attempted to proceed with remaining dependencies
-While running the script, system crashed due to high memory usage when loading layer activations
+* Cloned the repository and explored the nli folder
+* requirements.txt file was missing, so installed dependencies manually
+* Faced Python compatibility issue (project requires older version)
+* Installed Python 3.8 using pyenv and created a virtual environment
+* While installing spacy==2.2.4, encountered multiple build errors
+* Downgraded setuptools, wheel, and python to resolve dependency issues
+* Installation still failed due to blis dependency requiring unsupported CPU instructions on Apple Silicon
+* Tried running setup in Google Colab as an alternative
+* In Colab, spacy 2.2.4 failed due to incompatibility with Python 3.12
+* Attempted to proceed with remaining dependencies
+* While running the script, system crashed due to high memory usage when loading layer activations
 
 # Workstation Setup
-Macbook Pro (14-inch, 2024)
-CPU: Apple M4 Pro
-GPU: Integrated Apple GPU
-Memory (RAM): 24 GB
-OS: macOS Tahoe (version 26.3)
+* Macbook Pro (14-inch, 2024)
+* CPU: Apple M4 Pro
+* GPU: Integrated Apple GPU
+* Memory (RAM): 24 GB
+* OS: macOS Tahoe (version 26.3)
 
 
 
